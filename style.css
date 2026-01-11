@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+.card{
+    text-align: center;
+    width: 320px;
+    height: 130px;
+    vertical-align: top;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.shorthand{
+    border: 2px solid black;
+}
+
+.mixed{
+    border-top:2px solid red;
+    border-left: 2px double green;
+    border-right: 2px dashed yellow;
+    border-bottom: 2px dotted blue;
+}
+
+.dashed{
+    border: 2px dashed red;
+}
+
+.double{
+    border: 2px double blue;
+}
+
+.rounded{
+    border:2px double green;
+    border-radius: 15px;
+}
+
+.outline{
+    border:2px solid red;
+    outline: 3px solid blue;
+    outline-offset: 6px;
+}
