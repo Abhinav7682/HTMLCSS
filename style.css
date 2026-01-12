@@ -67,8 +67,6 @@ h1{
     text-align: center;
 }
 
-/* Task 3: Padding vs Margin */
-
 .pm-container {
     display: flex;
     justify-content: center;
@@ -116,4 +114,8 @@ h1{
     color: white;
     border-radius: 6px;
     cursor: pointer;
+}
+
+.Links{
+    text-align: center;
 }
